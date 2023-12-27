@@ -11,6 +11,7 @@
 		BC9EEC3C2B3CADA1002759E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EEC3B2B3CADA1002759E2 /* ContentView.swift */; };
 		BC9EEC3E2B3CADA4002759E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9EEC3D2B3CADA4002759E2 /* Assets.xcassets */; };
 		BC9EEC412B3CADA4002759E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9EEC402B3CADA4002759E2 /* Preview Assets.xcassets */; };
+		BC9EEC4B2B3CD96E002759E2 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EEC4A2B3CD96E002759E2 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BC9EEC3B2B3CADA1002759E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC9EEC3D2B3CADA4002759E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC9EEC402B3CADA4002759E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC9EEC4A2B3CD96E002759E2 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		BC9EEC382B3CADA1002759E2 /* ChatAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC9EEC472B3CD038002759E2 /* Components */,
 				BC9EEC392B3CADA1002759E2 /* ChatAppDemoApp.swift */,
 				BC9EEC3B2B3CADA1002759E2 /* ContentView.swift */,
 				BC9EEC3D2B3CADA4002759E2 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				BC9EEC402B3CADA4002759E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC9EEC472B3CD038002759E2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC9EEC4A2B3CD96E002759E2 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				BC9EEC3C2B3CADA1002759E2 /* ContentView.swift in Sources */,
 				BC9EEC3A2B3CADA1002759E2 /* ChatAppDemoApp.swift in Sources */,
+				BC9EEC4B2B3CD96E002759E2 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
